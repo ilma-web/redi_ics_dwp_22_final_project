@@ -168,7 +168,7 @@ Navbar
 
 /*
 =============== 
-footer
+page
 ===============
 */
 
@@ -185,8 +185,8 @@ footer
 footer
 ===============
 */
-.footer{
-  height: 4rem;
+.footer-recipes{
+  height: auto;
   text-align: center;
   color: white;
   display: flex;
@@ -194,6 +194,7 @@ footer
   justify-content: center; /* center horizontally*/
   background: rgb(31, 30, 30);
   margin-top: 10px;
+  position: relative;
 }
 /*
 ===============  
@@ -252,17 +253,6 @@ Home page
   grid-template-rows: auto;
 }
 
-.footer-recipes{
-  height: auto;
-  text-align: center;
-  color: white;
-  display: flex;
-  align-items: center; /* center vertically*/
-  justify-content: center; /* center horizontally*/
-  background: rgb(31, 30, 30);
-  margin-top: 10px;
-  position: relative;
-}
 
 
 .page-recipe{
@@ -272,6 +262,12 @@ Home page
   padding-top: 2rem;
   
 }
+
+/*
+##########################
+Icons
+##########################
+*/
 
 .recipe-icons {
   display: grid;
